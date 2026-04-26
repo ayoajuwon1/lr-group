@@ -2,10 +2,10 @@
 
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "palette": "graphite",
-  "logoVariant": "mono",
+  "logoVariant": "seal",
   "tagline": "rotate",
   "intensity": 9,
-  "accent": "orange"
+  "accent": "green"
 } /*EDITMODE-END*/;
 
 const TAGLINES = [

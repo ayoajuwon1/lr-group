@@ -43,12 +43,40 @@ function Loader() {
       </div>
 
       <div className="loader-stack">
-        <div className="loader-mark">
+        <div className="loader-mark loader-mark-seal">
           <svg viewBox="0 0 200 200">
-            <rect className="stroke" x="20" y="20" width="160" height="160" />
-            <path className="stroke stroke-2" d="M 50 50 L 50 130 L 110 130" />
-            <path className="stroke stroke-3" d="M 110 50 L 110 150 M 110 50 L 165 50 L 165 95 L 110 95 M 145 95 L 165 150" />
-            <rect className="fill-rect" x="74" y="74" width="18" height="18" />
+            {/* outer ring */}
+            <circle className="stroke seal-ring-out" cx="100" cy="100" r="94" />
+            {/* inner ring */}
+            <circle className="stroke stroke-2 seal-ring-in" cx="100" cy="100" r="80" />
+            {/* tick marks around the ring */}
+            <g className="seal-ticks">
+              {Array.from({ length: 24 }).map((_, i) => {
+                const a = (i / 24) * Math.PI * 2 - Math.PI / 2;
+                const r1 = 86, r2 = 90;
+                const x1 = 100 + Math.cos(a) * r1;
+                const y1 = 100 + Math.sin(a) * r1;
+                const x2 = 100 + Math.cos(a) * r2;
+                const y2 = 100 + Math.sin(a) * r2;
+                return <line key={i} x1={x1} y1={y1} x2={x2} y2={y2} stroke="currentColor" strokeWidth="1" />;
+              })}
+            </g>
+            {/* upper curved label path */}
+            <defs>
+              <path id="seal-top-arc" d="M 26 100 A 74 74 0 0 1 174 100" fill="none" />
+              <path id="seal-bot-arc" d="M 30 100 A 70 70 0 0 0 170 100" fill="none" />
+            </defs>
+            <text className="seal-text" fontFamily="JetBrains Mono, monospace" fontSize="9" letterSpacing="4" fill="currentColor">
+              <textPath href="#seal-top-arc" startOffset="50%" textAnchor="middle">★ THE LR GROUP ★ EST 2024 ★</textPath>
+            </text>
+            <text className="seal-text seal-text-bot" fontFamily="JetBrains Mono, monospace" fontSize="7" letterSpacing="3" fill="currentColor" opacity="0.6">
+              <textPath href="#seal-bot-arc" startOffset="50%" textAnchor="middle">LAGOS · NIGERIA · HOLDING CO.</textPath>
+            </text>
+            {/* center LR */}
+            <text className="seal-lr stroke-3" x="100" y="116" textAnchor="middle"
+                  fontFamily="Fraunces, serif" fontSize="64" fontStyle="italic" fontWeight="300" fill="currentColor">LR</text>
+            {/* center accent dot */}
+            <circle className="fill-rect" cx="100" cy="100" r="3" fill="var(--accent)" />
           </svg>
         </div>
         <div className="loader-tag">

@@ -203,6 +203,45 @@ a { color: inherit; text-decoration: none; }
   fill: var(--accent); opacity: 0;
   animation: fillIn .4s 1.8s forwards;
 }
+
+/* ─── Seal variant ─── */
+.loader-mark-seal .seal-ring-out,
+.loader-mark-seal .seal-ring-in {
+  fill: none; stroke: var(--fg); stroke-width: 1;
+  stroke-dasharray: 600; stroke-dashoffset: 600;
+  animation: drawSeal 1.4s .4s forwards cubic-bezier(.7,.1,.3,1);
+}
+.loader-mark-seal .seal-ring-in { animation-delay: .7s; stroke-width: 1.5; }
+@keyframes drawSeal { to { stroke-dashoffset: 0; } }
+
+.loader-mark-seal .seal-ticks {
+  opacity: 0;
+  transform-origin: 100px 100px;
+  animation: ticksIn .6s 1.4s forwards, ticksSpin 60s 1.4s linear infinite;
+  color: var(--fg);
+}
+@keyframes ticksIn { to { opacity: .55; } }
+@keyframes ticksSpin { to { transform: rotate(360deg); } }
+
+.loader-mark-seal .seal-text {
+  opacity: 0;
+  animation: fadeUp .5s 1.5s forwards;
+}
+.loader-mark-seal .seal-text-bot { animation-delay: 1.7s; }
+
+.loader-mark-seal .seal-lr {
+  opacity: 0;
+  transform-origin: 100px 100px;
+  transform: scale(.92);
+  animation: lrIn .7s 1.6s forwards cubic-bezier(.2,.8,.2,1);
+}
+@keyframes lrIn {
+  to { opacity: 1; transform: scale(1); }
+}
+
+.loader-mark-seal .fill-rect {
+  animation: fillIn .4s 2.0s forwards;
+}
 @keyframes drawMark { to { stroke-dashoffset: 0; } }
 @keyframes fillIn { to { opacity: 1; } }
 
