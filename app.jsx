@@ -90,7 +90,7 @@ function App() {
             </div>
 
             <h1 className="hero-headline">
-              <SplitWords text="We build the infrastructure" baseDelay={1} />
+              <SplitWords text="Building the infrastructure" baseDelay={1} />
               <br />
               <SplitWords text="<em>Nigeria&rsquo;s next economy</em> runs on." baseDelay={4} />
             </h1>
