@@ -96,7 +96,7 @@ function App() {
             </h1>
 
             <div className="hero-aside">
-              <p style={{ fontFamily: "Inter" }}>
+              <p style={{ fontFamily: "var(--sans)" }}>
                 <b>The LR Group</b> is the parent company of <b>Land Republic</b>, and a family of ventures building the physical and financial infrastructure that powers Nigeria&rsquo;s next economy.
               </p>
 
