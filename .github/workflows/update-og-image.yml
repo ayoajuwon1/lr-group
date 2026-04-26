@@ -1,0 +1,37 @@
+name: Update OG Image
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'og-image.png'
+      - '.github/**'
+
+jobs:
+  screenshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Wait for Vercel deployment
+        run: sleep 60
+
+      - name: Install Playwright
+        run: npx playwright install chromium --with-deps
+
+      - name: Screenshot homepage
+        run: node .github/scripts/screenshot.mjs
+
+      - name: Check if image changed
+        id: diff
+        run: |
+          git diff --quiet og-image.png && echo "changed=false" >> "$GITHUB_OUTPUT" || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push updated OG image
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add og-image.png
+          git commit -m "Auto-update OG image from live homepage"
+          git push
