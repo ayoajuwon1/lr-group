@@ -67,7 +67,7 @@ function Loader() {
               <path id="seal-bot-arc" d="M 30 100 A 70 70 0 0 0 170 100" fill="none" />
             </defs>
             <text className="seal-text" fontFamily="JetBrains Mono, monospace" fontSize="9" letterSpacing="4" fill="currentColor">
-              <textPath href="#seal-top-arc" startOffset="50%" textAnchor="middle">★ THE LR GROUP ★ EST 2024 ★</textPath>
+              <textPath href="#seal-top-arc" startOffset="50%" textAnchor="middle">★ THE LR GROUP ★ EST 2026 ★</textPath>
             </text>
             <text className="seal-text seal-text-bot" fontFamily="JetBrains Mono, monospace" fontSize="7" letterSpacing="3" fill="currentColor" opacity="0.6">
               <textPath href="#seal-bot-arc" startOffset="50%" textAnchor="middle">LAGOS · NIGERIA · HOLDING CO.</textPath>

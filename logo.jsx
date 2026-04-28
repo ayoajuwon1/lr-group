@@ -23,7 +23,7 @@ function LRMark({ size = 64, variant = 'mono', accent = false }) {
         <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" strokeWidth="1" />
         <circle cx="32" cy="32" r="26" fill="none" stroke="currentColor" strokeWidth="1.5" />
         <text x="32" y="38" textAnchor="middle" fontFamily="var(--serif)" fontSize="22" fontStyle="italic" fontWeight="300" fill="currentColor">LR</text>
-        <text x="32" y="14" textAnchor="middle" fontFamily="var(--mono)" fontSize="5" letterSpacing="2" fill="currentColor" opacity="0.6">★ EST 2024 ★</text>
+        <text x="32" y="14" textAnchor="middle" fontFamily="var(--mono)" fontSize="5" letterSpacing="2" fill="currentColor" opacity="0.6">★ EST 2026 ★</text>
         <text x="32" y="56" textAnchor="middle" fontFamily="var(--mono)" fontSize="5" letterSpacing="2" fill="currentColor" opacity="0.6">THE LR GROUP</text>
         {accent && <circle cx="32" cy="32" r="2" fill="var(--accent)" />}
       </svg>

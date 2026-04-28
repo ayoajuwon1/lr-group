@@ -111,7 +111,7 @@ function App() {
               }
 
               <div style={{ display: 'flex', gap: 24, fontFamily: 'var(--mono)', fontSize: 10.5, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--fg-dim)' }}>
-                <span>EST. <span style={{ color: 'var(--fg)' }}>2024</span></span>
+                <span>EST. <span style={{ color: 'var(--fg)' }}>2026</span></span>
                 <span>HQ <span style={{ color: 'var(--fg)' }}>LAGOS, NG</span></span>
                 <span>VENTURES <span style={{ color: 'var(--accent)' }}>02</span></span>
               </div>
@@ -131,7 +131,7 @@ function App() {
           <Reveal as="section" className="about" data-screen-label="02 About">
             <div className="about-meta">
               <b>Filed</b>
-              <span>2024 , LAGOS</span>
+              <span>2026 , LAGOS</span>
               <b style={{ marginTop: 12 }}>Structure</b>
               <span>HOLDING CO. + 2 OPERATING SUBSIDIARIES</span>
               <b style={{ marginTop: 12 }}>Sectors</b>
