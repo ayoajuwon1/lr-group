@@ -431,6 +431,8 @@ main {
   display: inline-block;
   overflow: hidden;
   vertical-align: baseline;
+  padding-bottom: .15em;
+  margin-bottom: -.15em;
 }
 .hero-headline .word > span {
   display: inline-block;
