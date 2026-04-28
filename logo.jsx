@@ -29,15 +29,15 @@ function LRMark({ size = 64, variant = 'mono', accent = false }) {
       </svg>
     );
   }
-  // default 'mono' — architectural plan
+  // default 'mono' , architectural plan
   return (
     <svg width={size} height={size} viewBox="0 0 64 64" style={{ display: 'block' }}>
       {/* outer frame */}
       <rect x="4" y="4" width="56" height="56" fill="none" stroke="currentColor" strokeWidth="1.5" />
-      {/* L — vertical and base */}
+      {/* L , vertical and base */}
       <rect x="10" y="10" width="6" height="36" fill="currentColor" />
       <rect x="10" y="40" width="20" height="6" fill="currentColor" />
-      {/* R — vertical, top horizontal, mid horizontal, leg */}
+      {/* R , vertical, top horizontal, mid horizontal, leg */}
       <rect x="34" y="10" width="6" height="44" fill="currentColor" />
       <rect x="34" y="10" width="20" height="6" fill="currentColor" />
       <rect x="48" y="10" width="6" height="20" fill="currentColor" />

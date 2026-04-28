@@ -43,7 +43,7 @@ function TaglineRotator({ taglines, speed = 3500 }) {
   }, [taglines.length, speed]);
   return (
     <div className="hero-tagline-rotator">
-      <div className="label">CURRENT THESIS — ROTATING</div>
+      <div className="label">CURRENT THESIS , ROTATING</div>
       <div className="lines">
         {taglines.map((t, idx) => (
           <div key={idx} className={`line${idx === i ? ' active' : ''}`}>{t}</div>
@@ -53,12 +53,12 @@ function TaglineRotator({ taglines, speed = 3500 }) {
   );
 }
 
-// Scrambling text — type that resolves from glyph noise
+// Scrambling text , type that resolves from glyph noise
 function Scramble({ text, trigger = true, duration = 1200, className }) {
   const [out, setOut] = React.useState(text);
   React.useEffect(() => {
     if (!trigger) { setOut(text); return; }
-    const chars = '!<>-_\\/[]{}—=+*^?#01';
+    const chars = '!<>-_\\/[]{},=+*^?#01';
     const start = performance.now();
     let raf;
     const step = () => {

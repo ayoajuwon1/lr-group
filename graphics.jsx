@@ -37,7 +37,7 @@ function HeroBlueprint() {
       <g fontFamily="var(--mono)" fontSize="9" fill="var(--accent)" letterSpacing="0.04em">
         <text x="44" y="395" textAnchor="end">14M</text>
         <text x="260" y="92" textAnchor="middle">120M</text>
-        <text x="200" y="565" textAnchor="middle">PARCEL — 1,000 UNITS</text>
+        <text x="200" y="565" textAnchor="middle">PARCEL , 1,000 UNITS</text>
         <text x="100" y="312" fill="var(--fg-dim)">A.01</text>
         <text x="220" y="172" fill="var(--fg-dim)">A.02</text>
       </g>
@@ -45,12 +45,12 @@ function HeroBlueprint() {
   );
 }
 
-// Subsidiary blueprint graphic — different per sub
+// Subsidiary blueprint graphic , different per sub
 function SubGraphic({ kind }) {
   if (kind === 'land-republic') {
     return (
       <div className="sub-graphic">
-        <div className="sub-graphic-label">FIG. 01 — DEVELOPMENT FOOTPRINT</div>
+        <div className="sub-graphic-label">FIG. 01 , DEVELOPMENT FOOTPRINT</div>
         <svg viewBox="0 0 400 280" preserveAspectRatio="xMidYMid slice">
           <g stroke="var(--fg)" strokeWidth="1" fill="none">
             {/* parcel grid */}
@@ -75,16 +75,16 @@ function SubGraphic({ kind }) {
               <text y="-18" textAnchor="middle" fontFamily="var(--mono)" fontSize="8" fill="var(--accent)">N</text>
             </g>
           </g>
-          <text x="20" y="32" fontFamily="var(--mono)" fontSize="8" fill="var(--fg-dim)" letterSpacing="0.08em">SCALE 1:2000 — OYO/LAGOS COMPOSITE</text>
-          <text x="20" y="260" fontFamily="var(--mono)" fontSize="8" fill="var(--fg-dim)" letterSpacing="0.08em">SHEET A.01 — PHASE I+II</text>
+          <text x="20" y="32" fontFamily="var(--mono)" fontSize="8" fill="var(--fg-dim)" letterSpacing="0.08em">SCALE 1:2000 , OYO/LAGOS COMPOSITE</text>
+          <text x="20" y="260" fontFamily="var(--mono)" fontSize="8" fill="var(--fg-dim)" letterSpacing="0.08em">SHEET A.01 , PHASE I+II</text>
         </svg>
       </div>
     );
   }
-  // LR Capital — abstract supply chain
+  // LR Capital , abstract supply chain
   return (
     <div className="sub-graphic">
-      <div className="sub-graphic-label">FIG. 02 — DEPLOYMENT MAP</div>
+      <div className="sub-graphic-label">FIG. 02 , DEPLOYMENT MAP</div>
       <svg viewBox="0 0 400 280" preserveAspectRatio="xMidYMid slice">
         <g stroke="var(--fg-dim)" strokeWidth="0.6" fill="none">
           {/* network nodes */}
@@ -114,7 +114,7 @@ function SubGraphic({ kind }) {
           <text x="320" y="208" fill="var(--fg-dim)">RETAIL</text>
           <text x="120" y="252" fill="var(--fg-dim)">LAB</text>
         </g>
-        <text x="20" y="32" fontFamily="var(--mono)" fontSize="8" fill="var(--fg-dim)" letterSpacing="0.08em">CRITICAL INFRASTRUCTURE — THESIS MAP</text>
+        <text x="20" y="32" fontFamily="var(--mono)" fontSize="8" fill="var(--fg-dim)" letterSpacing="0.08em">CRITICAL INFRASTRUCTURE , THESIS MAP</text>
       </svg>
     </div>
   );

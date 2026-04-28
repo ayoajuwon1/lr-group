@@ -16,9 +16,9 @@ const TAGLINES = [
 
 const TICKER_ITEMS = [
 ['LR.GROUP', 'HOLDING/OPERATING'],
-['LAND REPUBLIC', 'ACTIVE — LAGOS / OYO / IMO'],
+['LAND REPUBLIC', 'ACTIVE , LAGOS / OYO / IMO'],
 ['NGN', '10B+ TRANSACTED'],
-['OMM PARTNERSHIP', 'OYO STATE GOVT — 1,000 UNITS'],
+['OMM PARTNERSHIP', 'OYO STATE GOVT , 1,000 UNITS'],
 ['LR CAPITAL', 'COMING SOON'],
 ['THESIS', 'COLD CHAIN / LOGISTICS / PROCESSING'],
 ['STATUS', '● BUILDING'],
@@ -67,15 +67,15 @@ function App() {
             <span className="meta-hide">HOLDING / OPERATING CO.</span>
           </div>
           <div className="topbar-r">
-            <span className="meta-hide">LAGOS — 06°27′17″N / 03°25′40″E</span>
+            <span className="meta-hide">LAGOS , 06°27′17″N / 03°25′40″E</span>
             <span><LiveClock /></span>
             <span><i className="dot" />ACTIVE</span>
           </div>
         </div>
 
         {/* Side rails */}
-        <div className="rail left">SHEET <b>A.00 — INDEX</b> / REV 2026.04</div>
-        <div className="rail right">© 2026 — <b>BUILT IN LAGOS</b></div>
+        <div className="rail left">SHEET <b>A.00 , INDEX</b> / REV 2026.04</div>
+        <div className="rail right">© 2026 , <b>BUILT IN LAGOS</b></div>
 
         <main>
           {/* HERO */}
@@ -83,9 +83,9 @@ function App() {
             <div className="hero-eyebrow">
               <span>◆</span>
               <span>FILE</span>
-              <b>00.01 — INDEX</b>
+              <b>00.01 , INDEX</b>
               <span style={{ marginLeft: 'auto' }} className="num">2026 / Q2</span>
-              <span>—</span>
+              <span>,</span>
               <span>HOLDING CO. / FAMILY OF VENTURES</span>
             </div>
 
@@ -122,7 +122,7 @@ function App() {
 
           {/* ABOUT */}
           <Reveal as="section" className="section-head" delay={0}>
-            <div className="section-head-no">§ 02 — ABOUT</div>
+            <div className="section-head-no">§ 02 , ABOUT</div>
             <h2 className="section-head-title">
               A holding company built on a single thesis: <em>Nigeria&rsquo;s next economic leap requires infrastructure built by people who understand the market.</em>
             </h2>
@@ -131,7 +131,7 @@ function App() {
           <Reveal as="section" className="about" data-screen-label="02 About">
             <div className="about-meta">
               <b>Filed</b>
-              <span>2024 — LAGOS</span>
+              <span>2024 , LAGOS</span>
               <b style={{ marginTop: 12 }}>Structure</b>
               <span>HOLDING CO. + 2 OPERATING SUBSIDIARIES</span>
               <b style={{ marginTop: 12 }}>Sectors</b>
@@ -148,7 +148,7 @@ function App() {
                 We develop real estate. We deploy capital into critical supply chain and logistics infrastructure. We build technology platforms that bring transparency and trust to industries that need both.
               </p>
               <p style={{ color: 'var(--fg-dim)' }}>
-                Every venture in our portfolio exists because we identified a structural gap — and decided to close it.
+                Every venture in our portfolio exists because we identified a structural gap , and decided to close it.
               </p>
             </div>
 
@@ -169,7 +169,7 @@ function App() {
 
           {/* SUBSIDIARIES */}
           <Reveal as="section" className="section-head" delay={0}>
-            <div className="section-head-no">§ 03 — SUBSIDIARIES</div>
+            <div className="section-head-no">§ 03 , SUBSIDIARIES</div>
             <h2 className="section-head-title">
               Two operating companies. <em>One thesis.</em> Both load-bearing.
             </h2>
@@ -183,7 +183,7 @@ function App() {
               </div>
               <h3 className="sub-name">Land <em>Republic</em>.</h3>
               <p className="sub-oneliner">
-                <b>Real estate development for modern Nigeria.</b> Land Republic acquires, develops, and delivers premium real estate — from estate communities and commercial hubs to private construction.
+                <b>Real estate development for modern Nigeria.</b> Land Republic acquires, develops, and delivers premium real estate , from estate communities and commercial hubs to private construction.
               </p>
 
               <SubGraphic kind="land-republic" />
@@ -226,7 +226,7 @@ function App() {
               </div>
               <h3 className="sub-name">LR <em>Capital</em>.</h3>
               <p className="sub-oneliner">
-                <b>Infrastructure deployments for Africa&rsquo;s growth.</b> LR Capital identifies and invests in critical infrastructure gaps — cold chain, agricultural supply, and platforms that make markets work.
+                <b>Infrastructure deployments for Africa&rsquo;s growth.</b> LR Capital identifies and invests in critical infrastructure gaps , cold chain, agricultural supply, and platforms that make markets work.
               </p>
 
               <SubGraphic kind="lr-capital" />
@@ -244,7 +244,7 @@ function App() {
                 </div>
                 <div className="item">
                   <span className="n">03</span>
-                  <span>Technology platforms — markets that work</span>
+                  <span>Technology platforms , markets that work</span>
                   <span className="s">DIGITAL</span>
                 </div>
                 <div className="item">
@@ -271,7 +271,7 @@ function App() {
             <div className="foot-col">
               <h4>Ventures</h4>
               <a href="https://landrepublic.co" target="_blank" rel="noreferrer" className="hoverable">Land Republic ↗</a>
-              <p style={{ color: 'var(--fg-dim)' }}>LR Capital — soon</p>
+              <p style={{ color: 'var(--fg-dim)' }}>LR Capital , soon</p>
             </div>
             <div className="foot-col">
               <h4>HQ</h4>
@@ -285,7 +285,7 @@ function App() {
 
             <div className="foot-bottom" style={{ gridColumn: '1 / -1' }}>
               <div>
-                <div style={{ marginBottom: 8 }}>© 2026 THE LR GROUP — ALL RIGHTS RESERVED.</div>
+                <div style={{ marginBottom: 8 }}>© 2026 THE LR GROUP , ALL RIGHTS RESERVED.</div>
                 <div style={{ color: 'var(--fg-dim)' }}>BUILT IN LAGOS · TYPESET IN FRAUNCES &amp; JETBRAINS MONO</div>
                 <div style={{ color: 'var(--fg-dim)', marginTop: 4, fontSize: 9.5 }}>↳ TYPE &ldquo;LR&rdquo; FOR EASTER EGG</div>
               </div>
@@ -340,9 +340,9 @@ function App() {
         <TweakSelect label="Show" value={t.tagline}
         options={[
         { value: 'rotate', label: 'Rotate all 3' },
-        { value: 'tag1', label: '1 — Building infrastructure...' },
-        { value: 'tag2', label: '2 — The infrastructure behind...' },
-        { value: 'tag3', label: '3 — We build what Nigeria...' }]
+        { value: 'tag1', label: '1 , Building infrastructure...' },
+        { value: 'tag2', label: '2 , The infrastructure behind...' },
+        { value: 'tag3', label: '3 , We build what Nigeria...' }]
         }
         onChange={(v) => setTweak('tagline', v)} />
 

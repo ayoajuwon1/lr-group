@@ -80,7 +80,7 @@ function Loader() {
           </svg>
         </div>
         <div className="loader-tag">
-          THE <b>LR</b> GROUP — <b>HOLDING CO.</b>
+          THE <b>LR</b> GROUP , <b>HOLDING CO.</b>
         </div>
       </div>
 
