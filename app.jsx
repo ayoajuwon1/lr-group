@@ -62,7 +62,7 @@ function App() {
           <div className="topbar-l">
             <span style={{ display: 'inline-flex', alignItems: 'center', gap: 10, color: 'var(--fg)' }}>
               <LRMark size={20} variant={t.logoVariant} accent />
-              <b>AUXURE HOLDINGS</b>
+              <b>AUXURE HOLDING</b>
             </span>
             <span className="meta-hide">HOLDING / OPERATING CO.</span>
           </div>
@@ -97,7 +97,7 @@ function App() {
 
             <div className="hero-aside">
               <p style={{ fontFamily: "var(--sans)" }}>
-                <b>Auxure Holdings</b> is the parent company of <b>Land Republic</b>, and a family of ventures building the physical and financial infrastructure that powers Nigeria&rsquo;s next economy.
+                <b>Auxure Holding</b> is the parent company of <b>Land Republic</b>, and a family of ventures building the physical and financial infrastructure that powers Nigeria&rsquo;s next economy.
               </p>
 
               {t.tagline === 'rotate' ?
@@ -142,7 +142,7 @@ function App() {
 
             <div className="about-body">
               <p>
-                Founded as the holding company behind <b>Land Republic</b>, Auxure Holdings has expanded into a portfolio of businesses united by a single thesis.
+                Founded as the holding company behind <b>Land Republic</b>, Auxure Holding has expanded into a portfolio of businesses united by a single thesis.
               </p>
               <p>
                 We develop real estate. We deploy capital into critical supply chain and logistics infrastructure. We build technology platforms that bring transparency and trust to industries that need both.
@@ -265,7 +265,7 @@ function App() {
           <Reveal as="footer" className="foot" data-screen-label="04 Footer">
             <div className="foot-col">
               <h4>Contact</h4>
-              <a href="mailto:hello@landrepublic.co">hello@landrepublic.co</a>
+              <a href="mailto:admin@landrepublic.co">admin@landrepublic.co</a>
               <p style={{ color: 'var(--fg-dim)' }}>For investment, partnerships &amp; press.</p>
             </div>
             <div className="foot-col">
@@ -285,7 +285,7 @@ function App() {
 
             <div className="foot-bottom" style={{ gridColumn: '1 / -1' }}>
               <div>
-                <div style={{ marginBottom: 8 }}>© 2026 AUXURE HOLDINGS , ALL RIGHTS RESERVED.</div>
+                <div style={{ marginBottom: 8 }}>© 2026 AUXURE HOLDING , ALL RIGHTS RESERVED.</div>
                 <div style={{ color: 'var(--fg-dim)' }}>BUILT IN LAGOS · TYPESET IN FRAUNCES &amp; JETBRAINS MONO</div>
                 <div style={{ color: 'var(--fg-dim)', marginTop: 4, fontSize: 9.5 }}>↳ TYPE &ldquo;AH&rdquo; FOR EASTER EGG</div>
               </div>

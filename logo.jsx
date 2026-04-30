@@ -24,7 +24,7 @@ function LRMark({ size = 64, variant = 'mono', accent = false }) {
         <circle cx="32" cy="32" r="26" fill="none" stroke="currentColor" strokeWidth="1.5" />
         <text x="32" y="38" textAnchor="middle" fontFamily="var(--serif)" fontSize="22" fontStyle="italic" fontWeight="300" fill="currentColor">AH</text>
         <text x="32" y="14" textAnchor="middle" fontFamily="var(--mono)" fontSize="5" letterSpacing="2" fill="currentColor" opacity="0.6">★ EST 2026 ★</text>
-        <text x="32" y="56" textAnchor="middle" fontFamily="var(--mono)" fontSize="5" letterSpacing="2" fill="currentColor" opacity="0.6">AUXURE HOLDINGS</text>
+        <text x="32" y="56" textAnchor="middle" fontFamily="var(--mono)" fontSize="5" letterSpacing="2" fill="currentColor" opacity="0.6">AUXURE HOLDING</text>
         {accent && <circle cx="32" cy="32" r="2" fill="var(--accent)" />}
       </svg>
     );
@@ -61,7 +61,7 @@ function LRWordmark({ size = 22 }) {
       display: 'inline-flex', alignItems: 'center', gap: 10
     }}>
       <span style={{ display: 'inline-block', width: 10, height: 10, background: 'var(--accent)' }} />
-      Auxure Holdings
+      Auxure Holding
     </span>
   );
 }
