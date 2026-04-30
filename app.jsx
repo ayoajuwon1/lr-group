@@ -15,11 +15,11 @@ const TAGLINES = [
 
 
 const TICKER_ITEMS = [
-['LR.GROUP', 'HOLDING/OPERATING'],
+['AUXURE', 'HOLDING/OPERATING'],
 ['LAND REPUBLIC', 'ACTIVE , LAGOS / OYO / IMO'],
 ['NGN', '10B+ TRANSACTED'],
 ['OMM PARTNERSHIP', 'OYO STATE GOVT , 1,000 UNITS'],
-['LR CAPITAL', 'COMING SOON'],
+['AUXURE CAPITAL', 'COMING SOON'],
 ['THESIS', 'COLD CHAIN / LOGISTICS / PROCESSING'],
 ['STATUS', '● BUILDING'],
 ['REV', '2026.04']];
@@ -62,7 +62,7 @@ function App() {
           <div className="topbar-l">
             <span style={{ display: 'inline-flex', alignItems: 'center', gap: 10, color: 'var(--fg)' }}>
               <LRMark size={20} variant={t.logoVariant} accent />
-              <b>THE LR GROUP</b>
+              <b>AUXURE HOLDINGS</b>
             </span>
             <span className="meta-hide">HOLDING / OPERATING CO.</span>
           </div>
@@ -97,7 +97,7 @@ function App() {
 
             <div className="hero-aside">
               <p style={{ fontFamily: "var(--sans)" }}>
-                <b>The LR Group</b> is the parent company of <b>Land Republic</b>, and a family of ventures building the physical and financial infrastructure that powers Nigeria&rsquo;s next economy.
+                <b>Auxure Holdings</b> is the parent company of <b>Land Republic</b>, and a family of ventures building the physical and financial infrastructure that powers Nigeria&rsquo;s next economy.
               </p>
 
               {t.tagline === 'rotate' ?
@@ -142,7 +142,7 @@ function App() {
 
             <div className="about-body">
               <p>
-                Founded as the holding company behind <b>Land Republic</b>, The LR Group has expanded into a portfolio of businesses united by a single thesis.
+                Founded as the holding company behind <b>Land Republic</b>, Auxure Holdings has expanded into a portfolio of businesses united by a single thesis.
               </p>
               <p>
                 We develop real estate. We deploy capital into critical supply chain and logistics infrastructure. We build technology platforms that bring transparency and trust to industries that need both.
@@ -224,9 +224,9 @@ function App() {
                 <span>SUB.02 / FORMING</span>
                 <span className="status soon"><i className="dot" />COMING SOON</span>
               </div>
-              <h3 className="sub-name">LR <em>Capital</em>.</h3>
+              <h3 className="sub-name">Auxure <em>Capital</em>.</h3>
               <p className="sub-oneliner">
-                <b>Infrastructure deployments for Africa&rsquo;s growth.</b> LR Capital identifies and invests in critical infrastructure gaps , cold chain, agricultural supply, and platforms that make markets work.
+                <b>Infrastructure deployments for Africa&rsquo;s growth.</b> Auxure Capital identifies and invests in critical infrastructure gaps , cold chain, agricultural supply, and platforms that make markets work.
               </p>
 
               <SubGraphic kind="lr-capital" />
@@ -271,7 +271,7 @@ function App() {
             <div className="foot-col">
               <h4>Ventures</h4>
               <a href="https://landrepublic.co" target="_blank" rel="noreferrer" className="hoverable">Land Republic ↗</a>
-              <p style={{ color: 'var(--fg-dim)' }}>LR Capital , soon</p>
+              <p style={{ color: 'var(--fg-dim)' }}>Auxure Capital , soon</p>
             </div>
             <div className="foot-col">
               <h4>HQ</h4>
@@ -285,11 +285,11 @@ function App() {
 
             <div className="foot-bottom" style={{ gridColumn: '1 / -1' }}>
               <div>
-                <div style={{ marginBottom: 8 }}>© 2026 THE LR GROUP , ALL RIGHTS RESERVED.</div>
+                <div style={{ marginBottom: 8 }}>© 2026 AUXURE HOLDINGS , ALL RIGHTS RESERVED.</div>
                 <div style={{ color: 'var(--fg-dim)' }}>BUILT IN LAGOS · TYPESET IN FRAUNCES &amp; JETBRAINS MONO</div>
-                <div style={{ color: 'var(--fg-dim)', marginTop: 4, fontSize: 9.5 }}>↳ TYPE &ldquo;LR&rdquo; FOR EASTER EGG</div>
+                <div style={{ color: 'var(--fg-dim)', marginTop: 4, fontSize: 9.5 }}>↳ TYPE &ldquo;AH&rdquo; FOR EASTER EGG</div>
               </div>
-              <div className="glyph"><em>L</em>R<span style={{ color: 'var(--accent)' }}>.</span></div>
+              <div className="glyph"><em>A</em>H<span style={{ color: 'var(--accent)' }}>.</span></div>
             </div>
           </Reveal>
         </main>

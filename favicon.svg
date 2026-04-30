@@ -2,6 +2,6 @@
   <rect width="64" height="64" fill="#1a1714"/>
   <circle cx="32" cy="32" r="30" fill="none" stroke="#f0e3d0" stroke-width="1"/>
   <circle cx="32" cy="32" r="26" fill="none" stroke="#f0e3d0" stroke-width="1.5"/>
-  <text x="32" y="38" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-style="italic" font-weight="300" fill="#f0e3d0">LR</text>
+  <text x="32" y="38" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-style="italic" font-weight="300" fill="#f0e3d0">AH</text>
   <circle cx="32" cy="32" r="2" fill="#7ab87a"/>
 </svg>

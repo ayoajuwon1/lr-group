@@ -37,7 +37,7 @@ function Loader() {
         <span>REV</span><span>2026.04</span>
       </div>
       <div className="loader-readout-r">
-        THE LR GROUP<br />
+        AUXURE HOLDINGS<br />
         HOLDING / OPERATING CO.<br />
         <span style={{ color: 'var(--accent)' }}>● LIVE</span>
       </div>
@@ -67,20 +67,20 @@ function Loader() {
               <path id="seal-bot-arc" d="M 30 100 A 70 70 0 0 0 170 100" fill="none" />
             </defs>
             <text className="seal-text" fontFamily="JetBrains Mono, monospace" fontSize="9" letterSpacing="4" fill="currentColor">
-              <textPath href="#seal-top-arc" startOffset="50%" textAnchor="middle">★ THE LR GROUP ★ EST 2026 ★</textPath>
+              <textPath href="#seal-top-arc" startOffset="50%" textAnchor="middle">★ AUXURE HOLDINGS ★ EST 2026 ★</textPath>
             </text>
             <text className="seal-text seal-text-bot" fontFamily="JetBrains Mono, monospace" fontSize="7" letterSpacing="3" fill="currentColor" opacity="0.6">
               <textPath href="#seal-bot-arc" startOffset="50%" textAnchor="middle">LAGOS · NIGERIA · HOLDING CO.</textPath>
             </text>
-            {/* center LR */}
+            {/* center AH */}
             <text className="seal-lr stroke-3" x="100" y="116" textAnchor="middle"
-                  fontFamily="Fraunces, serif" fontSize="64" fontStyle="italic" fontWeight="300" fill="currentColor">LR</text>
+                  fontFamily="Fraunces, serif" fontSize="54" fontStyle="italic" fontWeight="300" fill="currentColor">AH</text>
             {/* center accent dot */}
             <circle className="fill-rect" cx="100" cy="100" r="3" fill="var(--accent)" />
           </svg>
         </div>
         <div className="loader-tag">
-          THE <b>LR</b> GROUP , <b>HOLDING CO.</b>
+          <b>AUXURE</b> HOLDINGS , <b>HOLDING CO.</b>
         </div>
       </div>
 

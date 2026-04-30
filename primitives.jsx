@@ -128,7 +128,7 @@ function SplitWords({ text, baseDelay = 1 }) {
   ));
 }
 
-// Easter egg: type "LR"
+// Easter egg: type "AH"
 function EasterEgg() {
   const [show, setShow] = React.useState(false);
   React.useEffect(() => {
@@ -136,7 +136,7 @@ function EasterEgg() {
     const onKey = (e) => {
       if (e.key && e.key.length === 1) {
         buffer = (buffer + e.key.toLowerCase()).slice(-2);
-        if (buffer === 'lr') {
+        if (buffer === 'ah') {
           setShow(true);
           setTimeout(() => setShow(false), 2400);
         }

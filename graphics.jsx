@@ -81,7 +81,7 @@ function SubGraphic({ kind }) {
       </div>
     );
   }
-  // LR Capital , abstract supply chain
+  // Auxure Capital , abstract supply chain
   return (
     <div className="sub-graphic">
       <div className="sub-graphic-label">FIG. 02 , DEPLOYMENT MAP</div>
